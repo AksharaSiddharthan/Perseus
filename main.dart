@@ -41,7 +41,7 @@ class _PerseusHomeState extends State<PerseusHome> {
         Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("assets/greek_background.jpg"), // ✅ Corrected file name
+              image: AssetImage("assets/greek background.jpg"), 
               fit: BoxFit.cover,
             ),
           ),
@@ -58,7 +58,7 @@ class _PerseusHomeState extends State<PerseusHome> {
                     Text(
                       'PERSEUS',
                       style: GoogleFonts.cinzel(
-                        fontSize: 36,
+                        fontSize: 50,
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
                         letterSpacing: 2.5,
@@ -73,7 +73,7 @@ class _PerseusHomeState extends State<PerseusHome> {
                         color: Colors.white70,
                       ),
                     ),
-                    const SizedBox(height: 36),
+                    const SizedBox(height: 120),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -89,12 +89,12 @@ class _PerseusHomeState extends State<PerseusHome> {
                         Expanded(
                           child: Text(
                             "Copy a link and paste it here to verify if it's safe to navigate.",
-                            style: GoogleFonts.inter(color: Colors.white70, fontSize: 14),
+                            style: GoogleFonts.inter(color: Colors.white70, fontSize: 18),
                           ),
                         ),
                       ],
                     ),
-                    const SizedBox(height: 14),
+                    const SizedBox(height: 30),
                     Container(
                       decoration: BoxDecoration(
                         color: Colors.white,
@@ -117,7 +117,7 @@ class _PerseusHomeState extends State<PerseusHome> {
                         ),
                       ),
                     ),
-                    const SizedBox(height: 36),
+                    const SizedBox(height: 80),
                     Column(
                       children: [
                         Container(
@@ -140,7 +140,7 @@ class _PerseusHomeState extends State<PerseusHome> {
                         Text(
                           'Scan a QR code to instantly verify its\nsafety before navigating, with a fully\nsecure and privacy-focused process.',
                           textAlign: TextAlign.center,
-                          style: GoogleFonts.inter(color: Colors.white70, fontSize: 14),
+                          style: GoogleFonts.inter(color: Colors.white70, fontSize: 18),
                         ),
                       ],
                     ),
