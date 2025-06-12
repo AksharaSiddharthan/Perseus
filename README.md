@@ -8,4 +8,3 @@ REST API: VirusTotal
 Backend: Hive in Flutter
 
 
-Why use VirusTotal?
