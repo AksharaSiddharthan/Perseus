@@ -1,4 +1,4 @@
-# Perseus
+# Perseus : Secure QR and URL Checking App
 Perseus is  an app that allows the user to enter/paste an URL to check for any malicious content before navigating further.
 Additionally users can also scan a QR code in the app to check if the redirect is safe to visit and prevent quishing.
 
